@@ -1,0 +1,1428 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology2.txt
+    using noise file: casino-lab.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_ack
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Activate debug message on channel role
+Creating node: 1
+>>>Will boot at time 0 [sec]
+Creating node: 2
+>>>Will boot at time 0 [sec]
+Creating node: 3
+>>>Will boot at time 0 [sec]
+Creating node: 4
+>>>Will boot at time 0 [sec]
+Creating node: 5
+>>>Will boot at time 0 [sec]
+Creating node: 6
+>>>Will boot at time 0 [sec]
+Creating node: 7
+>>>Will boot at time 0 [sec]
+Creating node: 8
+>>>Will boot at time 0 [sec]
+Creating node: 9
+>>>Will boot at time 0 [sec]
+Creating node: 10
+>>>Will boot at time 1 [sec]
+Creating node: 11
+>>>Will boot at time 1 [sec]
+Creating node: 12
+>>>Will boot at time 1 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  5  with gain  -58.0  dBm
+>>>Setting radio channel from node  1  to node  6  with gain  -58.0  dBm
+>>>Setting radio channel from node  1  to node  7  with gain  -50.0  dBm
+>>>Setting radio channel from node  1  to node  8  with gain  -55.0  dBm
+>>>Setting radio channel from node  1  to node  9  with gain  -50.0  dBm
+>>>Setting radio channel from node  1  to node  10  with gain  -50.0  dBm
+>>>Setting radio channel from node  1  to node  11  with gain  -55.0  dBm
+>>>Setting radio channel from node  1  to node  12  with gain  -50.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  4  with gain  -58.0  dBm
+>>>Setting radio channel from node  2  to node  5  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  10  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  11  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  4  with gain  -58.0  dBm
+>>>Setting radio channel from node  3  to node  6  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  11  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  12  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  2  with gain  -58.0  dBm
+>>>Setting radio channel from node  4  to node  3  with gain  -58.0  dBm
+>>>Setting radio channel from node  4  to node  8  with gain  -60.0  dBm
+>>>Setting radio channel from node  5  to node  1  with gain  -58.0  dBm
+>>>Setting radio channel from node  5  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  5  to node  9  with gain  -55.0  dBm
+>>>Setting radio channel from node  5  to node  10  with gain  -55.0  dBm
+>>>Setting radio channel from node  6  to node  1  with gain  -58.0  dBm
+>>>Setting radio channel from node  6  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  6  to node  7  with gain  -55.0  dBm
+>>>Setting radio channel from node  6  to node  12  with gain  -55.0  dBm
+>>>Setting radio channel from node  7  to node  1  with gain  -50.0  dBm
+>>>Setting radio channel from node  7  to node  6  with gain  -55.0  dBm
+>>>Setting radio channel from node  7  to node  8  with gain  -55.0  dBm
+>>>Setting radio channel from node  8  to node  1  with gain  -55.0  dBm
+>>>Setting radio channel from node  8  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  8  to node  7  with gain  -55.0  dBm
+>>>Setting radio channel from node  8  to node  9  with gain  -55.0  dBm
+>>>Setting radio channel from node  9  to node  1  with gain  -50.0  dBm
+>>>Setting radio channel from node  9  to node  5  with gain  -55.0  dBm
+>>>Setting radio channel from node  9  to node  8  with gain  -55.0  dBm
+>>>Setting radio channel from node  10  to node  1  with gain  -50.0  dBm
+>>>Setting radio channel from node  10  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  10  to node  5  with gain  -55.0  dBm
+>>>Setting radio channel from node  10  to node  11  with gain  -55.0  dBm
+>>>Setting radio channel from node  11  to node  1  with gain  -55.0  dBm
+>>>Setting radio channel from node  11  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  11  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  11  to node  10  with gain  -55.0  dBm
+>>>Setting radio channel from node  11  to node  12  with gain  -55.0  dBm
+>>>Setting radio channel from node  12  to node  1  with gain  -50.0  dBm
+>>>Setting radio channel from node  12  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  12  to node  6  with gain  -55.0  dBm
+>>>Setting radio channel from node  12  to node  11  with gain  -55.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: casino-lab.txt
+Loading:##Done!
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+>>>Creating noise model for node: 5
+>>>Creating noise model for node: 6
+>>>Creating noise model for node: 7
+>>>Creating noise model for node: 8
+>>>Creating noise model for node: 9
+>>>Creating noise model for node: 10
+>>>Creating noise model for node: 11
+>>>Creating noise model for node: 12
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (1): Application booted.
+DEBUG (3): Application booted.
+DEBUG (7): Application booted.
+DEBUG (6): Application booted.
+DEBUG (2): Application booted.
+DEBUG (5): Application booted.
+DEBUG (4): Application booted.
+DEBUG (9): Application booted.
+DEBUG (8): Application booted.
+DEBUG (2): I'm node 2, my position is x = 9 , y = 45
+DEBUG (2): I'm node 2: my first random timer is: 8
+DEBUG (6): I'm node 6, my position is x = 1 , y = 65
+DEBUG (6): I'm node 6: my first random timer is: 5
+DEBUG (8): I'm node 8, my position is x = 15 , y = 44
+DEBUG (8): I'm node 8: my first random timer is: 2
+DEBUG (3): I'm node 3, my position is x = 16 , y = 34
+DEBUG (3): I'm node 3: my first random timer is: 7
+DEBUG (1): I'm node 1, my position is x = 38 , y = 56
+DEBUG (9): I'm node 9, my position is x = 22 , y = 33
+DEBUG (9): I'm node 9: my first random timer is: 16
+DEBUG (7): I'm node 7, my position is x = 8 , y = 54
+DEBUG (7): I'm node 7: my first random timer is: 18
+DEBUG (4): I'm node 4, my position is x = 23 , y = 23
+DEBUG (4): I'm node 4: my first random timer is: 21
+DEBUG (5): I'm node 5, my position is x = 30 , y = 12
+DEBUG (5): I'm node 5: my first random timer is: 5
+DEBUG (12): Application booted.
+DEBUG (10): Application booted.
+DEBUG (11): Application booted.
+DEBUG (10): I'm node 10, my position is x = 93 , y = 86
+DEBUG (10): I'm node 10: my first random timer is: 16
+DEBUG (11): I'm node 11, my position is x = 0 , y = 75
+DEBUG (11): I'm node 11: my first random timer is: 29
+DEBUG (12): I'm node 12, my position is x = 7 , y = 64
+DEBUG (12): I'm node 12: my first random timer is: 13
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:0:1.953125010
+DEBUG (8): Somebody threw away 2 units!
+DEBUG (8): Inside me there are: 2 units
+DEBUG (8): My new random timer is: 13
+clients 1, read 0, wrote 0
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:0:4.882812510
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:0:4.882812510
+DEBUG (5): Somebody threw away 9 units!
+DEBUG (5): Inside me there are: 9 units
+DEBUG (5): My new random timer is: 19
+DEBUG (6): Somebody threw away 3 units!
+DEBUG (6): Inside me there are: 3 units
+DEBUG (6): My new random timer is: 18
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:0:6.835937510
+DEBUG (3): Somebody threw away 10 units!
+DEBUG (3): Inside me there are: 10 units
+DEBUG (3): My new random timer is: 24
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:0:7.812500010
+DEBUG (2): Somebody threw away 5 units!
+DEBUG (2): Inside me there are: 5 units
+DEBUG (2): My new random timer is: 12
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:0:13.695312510
+DEBUG (12): Somebody threw away 10 units!
+DEBUG (12): Inside me there are: 10 units
+DEBUG (12): My new random timer is: 19
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:0:14.648437510
+DEBUG (8): Somebody threw away 4 units!
+DEBUG (8): Inside me there are: 6 units
+DEBUG (8): My new random timer is: 18
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:0:15.625000010
+DEBUG (9): Somebody threw away 6 units!
+DEBUG (9): Inside me there are: 6 units
+DEBUG (9): My new random timer is: 12
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:0:16.625000010
+DEBUG (10): Somebody threw away 1 units!
+DEBUG (10): Inside me there are: 1 units
+DEBUG (10): My new random timer is: 24
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:0:17.578125010
+DEBUG (7): Somebody threw away 8 units!
+DEBUG (7): Inside me there are: 8 units
+DEBUG (7): My new random timer is: 30
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:0:19.531250010
+DEBUG (2): Somebody threw away 4 units!
+DEBUG (2): Inside me there are: 9 units
+DEBUG (2): My new random timer is: 4
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:0:20.507812510
+DEBUG (4): Somebody threw away 4 units!
+DEBUG (4): Inside me there are: 4 units
+DEBUG (4): My new random timer is: 7
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:0:22.460937510
+DEBUG (6): Somebody threw away 9 units!
+DEBUG (6): Inside me there are: 12 units
+DEBUG (6): My new random timer is: 8
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:0:23.437500010
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:0:23.437500010
+DEBUG (5): Somebody threw away 7 units!
+DEBUG (5): Inside me there are: 16 units
+DEBUG (5): My new random timer is: 26
+DEBUG (2): Somebody threw away 7 units!
+DEBUG (2): Inside me there are: 16 units
+DEBUG (2): My new random timer is: 15
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:0:27.343750010
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:0:27.343750010
+DEBUG (4): Somebody threw away 5 units!
+DEBUG (4): Inside me there are: 9 units
+DEBUG (4): My new random timer is: 14
+DEBUG (9): Somebody threw away 6 units!
+DEBUG (9): Inside me there are: 12 units
+DEBUG (9): My new random timer is: 16
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:0:29.320312510
+DEBUG (11): Somebody threw away 5 units!
+DEBUG (11): Inside me there are: 5 units
+DEBUG (11): My new random timer is: 7
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:0:30.273437510
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:0:30.273437510
+DEBUG (6): Somebody threw away 6 units!
+DEBUG (6): Inside me there are: 18 units
+DEBUG (6): My new random timer is: 24
+DEBUG (3): Somebody threw away 3 units!
+DEBUG (3): Inside me there are: 13 units
+DEBUG (3): My new random timer is: 16
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:0:32.226562510
+DEBUG (8): Somebody threw away 3 units!
+DEBUG (8): Inside me there are: 9 units
+DEBUG (8): My new random timer is: 27
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:0:32.250000010
+DEBUG (12): Somebody threw away 9 units!
+DEBUG (12): Inside me there are: 19 units
+DEBUG (12): My new random timer is: 8
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:0:36.156250010
+DEBUG (11): Somebody threw away 6 units!
+DEBUG (11): Inside me there are: 11 units
+DEBUG (11): My new random timer is: 26
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:0:38.085937510
+DEBUG (2): Somebody threw away 6 units!
+DEBUG (2): Inside me there are: 22 units
+DEBUG (2): My new random timer is: 12
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:0:40.062500010
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:0:40.062500010
+DEBUG (12): Somebody threw away 8 units!
+DEBUG (12): Inside me there are: 27 units
+DEBUG (12): My new random timer is: 20
+DEBUG (10): Somebody threw away 4 units!
+DEBUG (10): Inside me there are: 5 units
+DEBUG (10): My new random timer is: 28
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:0:41.015625010
+DEBUG (4): Somebody threw away 9 units!
+DEBUG (4): Inside me there are: 18 units
+DEBUG (4): My new random timer is: 4
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:0:42.968750010
+DEBUG (9): Somebody threw away 2 units!
+DEBUG (9): Inside me there are: 14 units
+DEBUG (9): My new random timer is: 7
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:0:44.921875010
+DEBUG (4): Somebody threw away 10 units!
+DEBUG (4): Inside me there are: 28 units
+DEBUG (4): My new random timer is: 5
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:0:45.898437510
+DEBUG (3): Somebody threw away 10 units!
+DEBUG (3): Inside me there are: 23 units
+DEBUG (3): My new random timer is: 25
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:0:46.875000010
+DEBUG (7): Somebody threw away 2 units!
+DEBUG (7): Inside me there are: 10 units
+DEBUG (7): My new random timer is: 6
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:0:48.828125010
+DEBUG (5): Somebody threw away 7 units!
+DEBUG (5): Inside me there are: 23 units
+DEBUG (5): My new random timer is: 14
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:0:49.804687510
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:0:49.804687510
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:0:49.804687510
+DEBUG (4): Somebody threw away 8 units!
+DEBUG (4): Inside me there are: 36 units
+DEBUG (4): My new random timer is: 29
+DEBUG (2): Somebody threw away 7 units!
+DEBUG (2): Inside me there are: 29 units
+DEBUG (2): My new random timer is: 27
+DEBUG (9): Somebody threw away 10 units!
+DEBUG (9): Inside me there are: 24 units
+DEBUG (9): My new random timer is: 9
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:0:52.734375010
+DEBUG (7): Somebody threw away 5 units!
+DEBUG (7): Inside me there are: 15 units
+DEBUG (7): My new random timer is: 17
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:0:53.710937510
+DEBUG (6): Somebody threw away 4 units!
+DEBUG (6): Inside me there are: 22 units
+DEBUG (6): My new random timer is: 12
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:0:58.593750010
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:0:58.593750010
+DEBUG (8): Somebody threw away 8 units!
+DEBUG (8): Inside me there are: 17 units
+DEBUG (8): My new random timer is: 4
+DEBUG (9): Somebody threw away 10 units!
+DEBUG (9): Inside me there are: 34 units
+DEBUG (9): My new random timer is: 13
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:0:59.593750010
+DEBUG (12): Somebody threw away 6 units!
+DEBUG (12): Inside me there are: 33 units
+DEBUG (12): My new random timer is: 20
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:1:1.546875010
+DEBUG (11): Somebody threw away 9 units!
+DEBUG (11): Inside me there are: 20 units
+DEBUG (11): My new random timer is: 26
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:1:2.500000010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:1:2.500000010
+DEBUG (8): Somebody threw away 4 units!
+DEBUG (8): Inside me there are: 21 units
+DEBUG (8): My new random timer is: 4
+DEBUG (5): Somebody threw away 2 units!
+DEBUG (5): Inside me there are: 25 units
+DEBUG (5): My new random timer is: 23
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:1:5.429687510
+DEBUG (6): Somebody threw away 3 units!
+DEBUG (6): Inside me there are: 25 units
+DEBUG (6): My new random timer is: 16
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:1:6.406250010
+DEBUG (8): Somebody threw away 8 units!
+DEBUG (8): Inside me there are: 29 units
+DEBUG (8): My new random timer is: 18
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:1:7.406250010
+DEBUG (10): Somebody threw away 1 units!
+DEBUG (10): Inside me there are: 6 units
+DEBUG (10): My new random timer is: 16
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:1:9.335937510
+DEBUG (7): Somebody threw away 6 units!
+DEBUG (7): Inside me there are: 21 units
+DEBUG (7): My new random timer is: 16
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:1:10.312500010
+DEBUG (3): Somebody threw away 8 units!
+DEBUG (3): Inside me there are: 31 units
+DEBUG (3): My new random timer is: 30
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:1:11.289062510
+DEBUG (9): Somebody threw away 2 units!
+DEBUG (9): Inside me there are: 36 units
+DEBUG (9): My new random timer is: 3
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:1:14.218750010
+DEBUG (9): Somebody threw away 2 units!
+DEBUG (9): Inside me there are: 38 units
+DEBUG (9): My new random timer is: 19
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:1:16.171875010
+DEBUG (2): Somebody threw away 8 units!
+DEBUG (2): Inside me there are: 37 units
+DEBUG (2): My new random timer is: 2
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:1:18.125000010
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:1:18.125000010
+DEBUG (4): Somebody threw away 6 units!
+DEBUG (4): Inside me there are: 42 units
+DEBUG (4): My new random timer is: 2
+DEBUG (2): Somebody threw away 3 units!
+DEBUG (2): Inside me there are: 40 units
+DEBUG (2): My new random timer is: 11
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:1:19.125000010
+DEBUG (12): Somebody threw away 1 units!
+DEBUG (12): Inside me there are: 34 units
+DEBUG (12): My new random timer is: 9
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:1:20.078125010
+DEBUG (4): Somebody threw away 10 units!
+DEBUG (4): Inside me there are: 52 units
+DEBUG (4): My new random timer is: 6
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:1:21.054687510
+DEBUG (6): Somebody threw away 4 units!
+DEBUG (6): Inside me there are: 29 units
+DEBUG (6): My new random timer is: 2
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:1:23.007812510
+DEBUG (6): Somebody threw away 3 units!
+DEBUG (6): Inside me there are: 32 units
+DEBUG (6): My new random timer is: 18
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:1:23.031250010
+DEBUG (10): Somebody threw away 2 units!
+DEBUG (10): Inside me there are: 8 units
+DEBUG (10): My new random timer is: 27
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:1:23.984375010
+DEBUG (8): Somebody threw away 6 units!
+DEBUG (8): Inside me there are: 35 units
+DEBUG (8): My new random timer is: 13
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:1:24.960937510
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:1:24.960937510
+DEBUG (7): Somebody threw away 9 units!
+DEBUG (7): Inside me there are: 30 units
+DEBUG (7): My new random timer is: 25
+DEBUG (5): Somebody threw away 4 units!
+DEBUG (5): Inside me there are: 29 units
+DEBUG (5): My new random timer is: 8
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:1:25.937500010
+DEBUG (4): Somebody threw away 3 units!
+DEBUG (4): Inside me there are: 55 units
+DEBUG (4): My new random timer is: 8
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:1:26.937500010
+DEBUG (11): Somebody threw away 4 units!
+DEBUG (11): Inside me there are: 24 units
+DEBUG (11): My new random timer is: 16
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:1:27.914062510
+DEBUG (12): Somebody threw away 4 units!
+DEBUG (12): Inside me there are: 38 units
+DEBUG (12): My new random timer is: 18
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:1:28.867187510
+DEBUG (2): Somebody threw away 9 units!
+DEBUG (2): Inside me there are: 49 units
+DEBUG (2): My new random timer is: 20
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:1:32.773437510
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:1:32.773437510
+DEBUG (5): Somebody threw away 10 units!
+DEBUG (5): Inside me there are: 39 units
+DEBUG (5): My new random timer is: 17
+DEBUG (9): Somebody threw away 6 units!
+DEBUG (9): Inside me there are: 44 units
+DEBUG (9): My new random timer is: 16
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:1:33.750000010
+DEBUG (4): Somebody threw away 5 units!
+DEBUG (4): Inside me there are: 60 units
+DEBUG (4): My new random timer is: 19
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:1:36.679687510
+DEBUG (8): Somebody threw away 5 units!
+DEBUG (8): Inside me there are: 40 units
+DEBUG (8): My new random timer is: 30
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:1:39.609375010
+DEBUG (3): Somebody threw away 3 units!
+DEBUG (3): Inside me there are: 34 units
+DEBUG (3): My new random timer is: 20
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:1:40.585937510
+DEBUG (6): Somebody threw away 1 units!
+DEBUG (6): Inside me there are: 33 units
+DEBUG (6): My new random timer is: 11
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:1:42.562500010
+DEBUG (11): Somebody threw away 5 units!
+DEBUG (11): Inside me there are: 29 units
+DEBUG (11): My new random timer is: 1
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:1:43.539062510
+DEBUG (11): Somebody threw away 10 units!
+DEBUG (11): Inside me there are: 39 units
+DEBUG (11): My new random timer is: 3
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:1:45.492187510
+DEBUG (12): Somebody threw away 6 units!
+DEBUG (12): Inside me there are: 44 units
+DEBUG (12): My new random timer is: 20
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:1:46.468750010
+DEBUG (11): Somebody threw away 5 units!
+DEBUG (11): Inside me there are: 44 units
+DEBUG (11): My new random timer is: 30
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:1:48.398437510
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:1:48.398437510
+DEBUG (2): Somebody threw away 10 units!
+DEBUG (2): Inside me there are: 59 units
+DEBUG (2): My new random timer is: 13
+DEBUG (9): Somebody threw away 3 units!
+DEBUG (9): Inside me there are: 47 units
+DEBUG (9): My new random timer is: 21
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:1:49.375000010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:1:49.375000010
+DEBUG (7): Somebody threw away 4 units!
+DEBUG (7): Inside me there are: 34 units
+DEBUG (7): My new random timer is: 17
+DEBUG (5): Somebody threw away 2 units!
+DEBUG (5): Inside me there are: 41 units
+DEBUG (5): My new random timer is: 12
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:1:49.398437510
+DEBUG (10): Somebody threw away 5 units!
+DEBUG (10): Inside me there are: 13 units
+DEBUG (10): My new random timer is: 22
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:1:51.328125010
+DEBUG (6): Somebody threw away 3 units!
+DEBUG (6): Inside me there are: 36 units
+DEBUG (6): My new random timer is: 26
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:1:52.304687510
+DEBUG (4): Somebody threw away 2 units!
+DEBUG (4): Inside me there are: 62 units
+DEBUG (4): My new random timer is: 16
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:1:59.140625010
+DEBUG (3): Somebody threw away 2 units!
+DEBUG (3): Inside me there are: 36 units
+DEBUG (3): My new random timer is: 17
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:2:1.093750010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:2:1.093750010
+DEBUG (2): Somebody threw away 1 units!
+DEBUG (2): Inside me there are: 60 units
+DEBUG (2): My new random timer is: 1
+DEBUG (5): Somebody threw away 4 units!
+DEBUG (5): Inside me there are: 45 units
+DEBUG (5): My new random timer is: 25
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:2:2.070312510
+DEBUG (2): Somebody threw away 3 units!
+DEBUG (2): Inside me there are: 63 units
+DEBUG (2): My new random timer is: 29
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:5.023437510
+DEBUG (12): Somebody threw away 7 units!
+DEBUG (12): Inside me there are: 51 units
+DEBUG (12): My new random timer is: 21
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:2:5.976562510
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:5.976562510
+DEBUG (8): Somebody threw away 7 units!
+DEBUG (8): Inside me there are: 47 units
+DEBUG (8): My new random timer is: 17
+DEBUG (7): Somebody threw away 5 units!
+DEBUG (7): Inside me there are: 39 units
+DEBUG (7): My new random timer is: 7
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:2:7.929687510
+DEBUG (4): Somebody threw away 7 units!
+DEBUG (4): Inside me there are: 69 units
+DEBUG (4): My new random timer is: 6
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:2:8.906250010
+DEBUG (9): Somebody threw away 5 units!
+DEBUG (9): Inside me there are: 52 units
+DEBUG (9): My new random timer is: 16
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:2:10.882812510
+DEBUG (10): Somebody threw away 6 units!
+DEBUG (10): Inside me there are: 19 units
+DEBUG (10): My new random timer is: 18
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:12.812500010
+DEBUG (7): Somebody threw away 8 units!
+DEBUG (7): Inside me there are: 47 units
+DEBUG (7): My new random timer is: 13
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:2:13.789062510
+DEBUG (4): Somebody threw away 10 units!
+DEBUG (4): Inside me there are: 79 units
+DEBUG (4): My new random timer is: 23
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:2:15.742187510
+DEBUG (3): Somebody threw away 5 units!
+DEBUG (3): Inside me there are: 41 units
+DEBUG (3): My new random timer is: 1
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:2:15.765625010
+DEBUG (11): Somebody threw away 10 units!
+DEBUG (11): Inside me there are: 54 units
+DEBUG (11): My new random timer is: 19
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:2:16.718750010
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:2:16.718750010
+DEBUG (3): Somebody threw away 6 units!
+DEBUG (3): Inside me there are: 47 units
+DEBUG (3): My new random timer is: 22
+DEBUG (6): Somebody threw away 4 units!
+DEBUG (6): Inside me there are: 40 units
+DEBUG (6): My new random timer is: 1
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:2:17.695312510
+DEBUG (6): Somebody threw away 1 units!
+DEBUG (6): Inside me there are: 41 units
+DEBUG (6): My new random timer is: 28
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:2:22.578125010
+DEBUG (8): Somebody threw away 9 units!
+DEBUG (8): Inside me there are: 56 units
+DEBUG (8): My new random timer is: 16
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:2:24.531250010
+DEBUG (9): Somebody threw away 9 units!
+DEBUG (9): Inside me there are: 61 units
+DEBUG (9): My new random timer is: 24
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:25.507812510
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:2:25.507812510
+DEBUG (7): Somebody threw away 5 units!
+DEBUG (7): Inside me there are: 52 units
+DEBUG (7): My new random timer is: 14
+DEBUG (5): Somebody threw away 7 units!
+DEBUG (5): Inside me there are: 52 units
+DEBUG (5): My new random timer is: 23
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:25.531250010
+DEBUG (12): Somebody threw away 9 units!
+DEBUG (12): Inside me there are: 60 units
+DEBUG (12): My new random timer is: 1
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:26.507812510
+DEBUG (12): Somebody threw away 2 units!
+DEBUG (12): Inside me there are: 62 units
+DEBUG (12): My new random timer is: 1
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:27.484375010
+DEBUG (12): Somebody threw away 2 units!
+DEBUG (12): Inside me there are: 64 units
+DEBUG (12): My new random timer is: 5
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:2:28.460937510
+DEBUG (10): Somebody threw away 3 units!
+DEBUG (10): Inside me there are: 22 units
+DEBUG (10): My new random timer is: 24
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:2:30.390625010
+DEBUG (2): Somebody threw away 5 units!
+DEBUG (2): Inside me there are: 68 units
+DEBUG (2): My new random timer is: 16
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:32.367187510
+DEBUG (12): Somebody threw away 7 units!
+DEBUG (12): Inside me there are: 71 units
+DEBUG (12): My new random timer is: 1
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:33.343750010
+DEBUG (12): Somebody threw away 4 units!
+DEBUG (12): Inside me there are: 75 units
+DEBUG (12): My new random timer is: 4
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:2:34.320312510
+DEBUG (11): Somebody threw away 7 units!
+DEBUG (11): Inside me there are: 61 units
+DEBUG (11): My new random timer is: 27
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:2:36.250000010
+DEBUG (4): Somebody threw away 5 units!
+DEBUG (4): Inside me there are: 84 units
+DEBUG (4): My new random timer is: 5
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:37.250000010
+DEBUG (12): Somebody threw away 6 units!
+DEBUG (12): Inside me there are: 81 units
+DEBUG (12): My new random timer is: 17
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:2:38.203125010
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:2:38.203125010
+DEBUG (8): Somebody threw away 5 units!
+DEBUG (8): Inside me there are: 61 units
+DEBUG (8): My new random timer is: 6
+DEBUG (3): Somebody threw away 3 units!
+DEBUG (3): Inside me there are: 50 units
+DEBUG (3): My new random timer is: 16
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:39.179687510
+DEBUG (7): Somebody threw away 3 units!
+DEBUG (7): Inside me there are: 55 units
+DEBUG (7): My new random timer is: 1
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:40.156250010
+DEBUG (7): Somebody threw away 1 units!
+DEBUG (7): Inside me there are: 56 units
+DEBUG (7): My new random timer is: 17
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:2:41.132812510
+DEBUG (4): Somebody threw away 9 units!
+DEBUG (4): Inside me (4) there are 93 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (4): My new random timer is: 30
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:2:44.062500010
+DEBUG (8): Somebody threw away 9 units!
+DEBUG (8): Inside me there are: 70 units
+DEBUG (8): My new random timer is: 19
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:2:45.039062510
+DEBUG (6): Somebody threw away 10 units!
+DEBUG (6): Inside me there are: 51 units
+DEBUG (6): My new random timer is: 29
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:2:46.015625010
+DEBUG (4): Serial Packet sent...
+DEBUG (2): Somebody threw away 4 units!
+DEBUG (2): Inside me there are: 72 units
+DEBUG (2): My new random timer is: 20
+DEBUG (4): Try to send a request to the truck at time 0:2:46.015625030 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message received from bin 4 at time 0:2:46.018844615 
+DEBUG (1): Computing distance... 
+DEBUG (1): distance: 36
+DEBUG (4): Packet sent to node(ack not needed) at time 0:2:46.019012461 
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:2:47.968750010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:2:47.968750010
+DEBUG (9): Somebody threw away 6 units!
+DEBUG (9): Inside me there are: 67 units
+DEBUG (9): My new random timer is: 30
+DEBUG (5): Somebody threw away 8 units!
+DEBUG (5): Inside me there are: 60 units
+DEBUG (5): My new random timer is: 1
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:2:48.945312510
+DEBUG (5): Somebody threw away 7 units!
+DEBUG (5): Inside me there are: 67 units
+DEBUG (5): My new random timer is: 25
+DEBUG (4): Serial Packet sent...
+DEBUG (4): Try to send a request to the truck at time 0:2:50.898437530 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message dropped... at time 0:2:50.902023324 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:2:50.902191170 
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:2:51.898437510
+DEBUG (10): Somebody threw away 3 units!
+DEBUG (10): Inside me there are: 25 units
+DEBUG (10): My new random timer is: 3
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:2:53.828125010
+DEBUG (3): Somebody threw away 7 units!
+DEBUG (3): Inside me there are: 57 units
+DEBUG (3): My new random timer is: 16
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:2:53.851562510
+DEBUG (12): Somebody threw away 8 units!
+DEBUG (12): Inside me (12) there are 89 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (12): My new random timer is: 18
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:2:54.828125010
+DEBUG (10): Somebody threw away 5 units!
+DEBUG (10): Inside me there are: 30 units
+DEBUG (10): My new random timer is: 24
+DEBUG (4): Serial Packet sent...
+DEBUG (4): Try to send a request to the truck at time 0:2:55.781250030 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message dropped... at time 0:2:55.783126850 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:2:55.783294695 
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:2:56.757812510
+DEBUG (7): Somebody threw away 1 units!
+DEBUG (7): Inside me there are: 57 units
+DEBUG (7): My new random timer is: 24
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:2:58.734375030 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message dropped... at time 0:2:58.736602800 
+DEBUG (12): Packet sent to node(ack not needed) at time 0:2:58.736770645 
+DEBUG (4): Serial Packet sent...
+DEBUG (4): Try to send a request to the truck at time 0:3:0.664062530 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:0.669250488 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:3:0.669418333 
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:3:0.687500010
+DEBUG (11): Somebody threw away 6 units!
+DEBUG (11): Inside me there are: 67 units
+DEBUG (11): My new random timer is: 1
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:3:1.664062510
+DEBUG (11): Somebody threw away 2 units!
+DEBUG (11): Inside me there are: 69 units
+DEBUG (11): My new random timer is: 16
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:3:2.617187510
+DEBUG (8): Somebody threw away 9 units!
+DEBUG (8): Inside me there are: 79 units
+DEBUG (8): My new random timer is: 5
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:3.617187530 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:3.623092646 
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:3.623260492 
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:3:5.546875010
+DEBUG (4): Serial Packet sent...
+DEBUG (2): Somebody threw away 5 units!
+DEBUG (2): Inside me there are: 77 units
+DEBUG (2): My new random timer is: 2
+DEBUG (4): Try to send a request to the truck at time 0:3:5.546875030 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:5.548629780 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:3:5.548797626 
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:3:7.500000010
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:3:7.500000010
+DEBUG (8): Somebody threw away 9 units!
+DEBUG (8): Inside me (8) there are 88 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (8): My new random timer is: 24
+DEBUG (2): Somebody threw away 3 units!
+DEBUG (2): Inside me there are: 80 units
+DEBUG (2): My new random timer is: 15
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:8.500000030 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:8.509033180 
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:8.509201026 
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:3:9.453125010
+DEBUG (3): Somebody threw away 3 units!
+DEBUG (3): Inside me there are: 60 units
+DEBUG (3): My new random timer is: 17
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:3:10.429687510
+DEBUG (4): Somebody threw away 10 units!
+DEBUG (4): I can't collect anymore stuff :( I have to send it to my neighbors...
+DEBUG (4): My new random timer is: 10
+DEBUG (4): Serial Packet sent...
+DEBUG (4): Packet passed to lower layer successfully!
+	 Source: 4 
+ 	 Destination: 255 
+DEBUG (4): Try to send a request to the truck at time 0:3:10.429687570 
+DEBUG (1): Message dropped... at time 0:3:10.432678255 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:3:10.432846100 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:3:11.429687510
+DEBUG (12): Somebody threw away 2 units!
+DEBUG (12): Inside me (12) there are 91 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (12): My new random timer is: 13
+DEBUG (8): Serial Packet sent...
+DEBUG (4): Serial Packet sent...
+DEBUG (8): Try to send a request to the truck at time 0:3:12.382812530 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 11 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 8 
+		 position x of the node: 15 
+		 position y of the node: 44 
+
+ 
+DEBUG (4): No one is available, I have to drop the garbage
+DEBUG (1): Message dropped... at time 0:3:12.390380845 
+DEBUG (8): Packet sent to node(ack not needed) at time 0:3:12.390548690 
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:3:13.359375010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:3:13.359375010
+DEBUG (6): Somebody threw away 2 units!
+DEBUG (6): Inside me there are: 53 units
+DEBUG (6): My new random timer is: 20
+DEBUG (5): Somebody threw away 2 units!
+DEBUG (5): Inside me there are: 69 units
+DEBUG (5): My new random timer is: 18
+DEBUG (4): Serial Packet sent...
+DEBUG (4): Try to send a request to the truck at time 0:3:15.312500030 
+DEBUG (4): Packet passed to lower layer successfully!
+DEBUG (4): >>>Pack
+ 	 Payload length 11 
+	 Source: 4 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 4 
+		 position x of the node: 23 
+		 position y of the node: 23 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:15.322341891 
+DEBUG (4): Packet sent to node(ack not needed) at time 0:3:15.322509737 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:16.312500030 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:16.313873313 
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:16.314041158 
+DEBUG (8): Serial Packet sent...
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:3:17.265625010
+DEBUG (8): Try to send a request to the truck at time 0:3:17.265625030 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 11 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 8 
+		 position x of the node: 15 
+		 position y of the node: 44 
+
+ 
+DEBUG (9): Somebody threw away 10 units!
+DEBUG (9): Inside me there are: 77 units
+DEBUG (9): My new random timer is: 5
+DEBUG (1): Message dropped... at time 0:3:17.275115941 
+DEBUG (8): Packet sent to node(ack not needed) at time 0:3:17.275283787 
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:3:17.289062510
+DEBUG (11): Somebody threw away 5 units!
+DEBUG (11): Inside me there are: 74 units
+DEBUG (11): My new random timer is: 6
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:3:18.265625010
+DEBUG (10): Somebody threw away 10 units!
+DEBUG (10): Inside me there are: 40 units
+DEBUG (10): My new random timer is: 1
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:3:19.242187510
+DEBUG (10): Somebody threw away 9 units!
+DEBUG (10): Inside me there are: 49 units
+DEBUG (10): My new random timer is: 13
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:3:20.195312510
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:3:20.195312510
+DEBUG (7): Somebody threw away 9 units!
+DEBUG (7): Inside me there are: 66 units
+DEBUG (7): My new random timer is: 4
+DEBUG (4): Somebody threw away 4 units!
+DEBUG (4): Inside me (4) there are 97 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (4): My new random timer is: 11
+DEBUG (1): Serial Packet sent...
+DEBUG (1): I'm the truck and I arrived at bin 4 at time 0:3:21.174804697
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): Packet sent to node 4 and ack received at time 0:3:21.177017229 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:21.195312530 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message received from bin 12 at time 0:3:21.200363159 
+DEBUG (1): Computing distance... 
+DEBUG (1): distance: 44
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:21.200531005 
+DEBUG (8): Serial Packet sent...
+DEBUG (2): Serial Packet sent...
+DEBUG (2): I'm node 2: my random timer fired at 0:3:22.148437510
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:3:22.148437510
+DEBUG (8): Try to send a request to the truck at time 0:3:22.148437530 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 11 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 8 
+		 position x of the node: 15 
+		 position y of the node: 44 
+
+ 
+DEBUG (2): Somebody threw away 5 units!
+DEBUG (2): Inside me (2) there are 85 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (2): My new random timer is: 30
+DEBUG (9): Somebody threw away 9 units!
+DEBUG (9): Inside me (9) there are 86 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (9): My new random timer is: 8
+DEBUG (1): Message dropped... at time 0:3:22.151992807 
+DEBUG (8): Packet sent to node(ack not needed) at time 0:3:22.152160652 
+DEBUG (11): Serial Packet sent...
+DEBUG (11): I'm node 11: my random timer fired at 0:3:23.148437510
+DEBUG (11): Somebody threw away 7 units!
+DEBUG (11): Inside me there are: 81 units
+DEBUG (11): My new random timer is: 20
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:3:24.101562510
+DEBUG (7): Somebody threw away 6 units!
+DEBUG (7): Inside me there are: 72 units
+DEBUG (7): My new random timer is: 10
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:3:24.125000010
+DEBUG (12): Somebody threw away 6 units!
+DEBUG (12): Inside me (12) there are 97 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (12): My new random timer is: 3
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:3:26.054687510
+DEBUG (3): Somebody threw away 3 units!
+DEBUG (3): Inside me there are: 63 units
+DEBUG (3): My new random timer is: 11
+DEBUG (2): Serial Packet sent...
+DEBUG (9): Serial Packet sent...
+DEBUG (8): Serial Packet sent...
+DEBUG (2): Try to send a request to the truck at time 0:3:27.031250030 
+DEBUG (2): Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 11 
+	 Source: 2 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 2 
+		 position x of the node: 9 
+		 position y of the node: 45 
+
+ 
+DEBUG (9): Try to send a request to the truck at time 0:3:27.031250030 
+DEBUG (9): Packet passed to lower layer successfully!
+DEBUG (9): >>>Pack
+ 	 Payload length 11 
+	 Source: 9 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 9 
+		 position x of the node: 22 
+		 position y of the node: 33 
+
+ 
+DEBUG (8): Try to send a request to the truck at time 0:3:27.031250030 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 11 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 8 
+		 position x of the node: 15 
+		 position y of the node: 44 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:27.039703349 
+DEBUG (8): Packet sent to node(ack not needed) at time 0:3:27.039871195 
+DEBUG (1): Message dropped... at time 0:3:27.041015598 
+DEBUG (2): Packet sent to node(ack not needed) at time 0:3:27.041183443 
+DEBUG (1): Message dropped... at time 0:3:27.042205776 
+DEBUG (9): Packet sent to node(ack not needed) at time 0:3:27.042373622 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm node 12: my random timer fired at 0:3:27.054687510
+DEBUG (12): Somebody threw away 8 units!
+DEBUG (12): I can't collect anymore stuff :( I have to send it to my neighbors...
+DEBUG (12): My new random timer is: 19
+DEBUG (12): Packet passed to lower layer successfully!
+	 Source: 12 
+ 	 Destination: 255 
+DEBUG (11): REQUEST FOR HELP RECEIVED
+DEBUG (6): REQUEST FOR HELP RECEIVED
+DEBUG (3): REQUEST FOR HELP RECEIVED
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:27.057006872 
+DEBUG (3): Packet passed to lower layer successfully!
+DEBUG (3): >>>Pack
+ 	 Payload length 11 
+	 Source: 3 
+ 	 Destination: 12 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 4 
+ 		 node_id: 3 
+		 position x of the node: 16 
+		 position y of the node: 34 
+
+ 
+DEBUG (6): Packet passed to lower layer successfully!
+DEBUG (6): >>>Pack
+ 	 Payload length 11 
+	 Source: 6 
+ 	 Destination: 12 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 4 
+ 		 node_id: 6 
+		 position x of the node: 1 
+		 position y of the node: 65 
+
+ 
+DEBUG (11): Packet passed to lower layer successfully!
+DEBUG (11): >>>Pack
+ 	 Payload length 11 
+	 Source: 11 
+ 	 Destination: 12 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 4 
+ 		 node_id: 11 
+		 position x of the node: 0 
+		 position y of the node: 75 
+
+ 
+DEBUG (3): Packet sent to node(ack not needed) at time 0:3:28.524154667 
+DEBUG (6): Packet sent to node(ack not needed) at time 0:3:28.528213481 
+DEBUG (11): Packet sent to node(ack not needed) at time 0:3:28.528488138 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:29.007812530 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (12): Serial Packet sent...
+DEBUG (12): I'm sending my garbage to 3
+DEBUG (12): Try to send a request to the truck at time 0:3:29.007812560 
+DEBUG (3): NODE: 3 received: 8... at time 0:3:29.017654391 
+DEBUG (3): Somebody threw away 8 units!
+DEBUG (3): Inside me there are: 71 units
+DEBUG (3): My new random timer is: 4
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:29.017822237 
+DEBUG (9): Serial Packet sent...
+DEBUG (9): I'm node 9: my random timer fired at 0:3:29.960937510
+DEBUG (9): Somebody threw away 10 units!
+DEBUG (9): Inside me (9) there are 96 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (9): My new random timer is: 11
+DEBUG (8): Serial Packet sent...
+DEBUG (8): I'm node 8: my random timer fired at 0:3:30.937500010
+DEBUG (4): Serial Packet sent...
+DEBUG (4): I'm node 4: my random timer fired at 0:3:30.937500010
+DEBUG (5): Serial Packet sent...
+DEBUG (5): I'm node 5: my random timer fired at 0:3:30.937500010
+DEBUG (8): Somebody threw away 9 units!
+DEBUG (8): Inside me (8) there are 97 units, I can still collect stuff but I will be full soon... Let's call the truck!
+DEBUG (8): My new random timer is: 29
+DEBUG (4): Somebody threw away 4 units!
+DEBUG (4): Inside me there are: 4 units
+DEBUG (4): My new random timer is: 28
+DEBUG (5): Somebody threw away 2 units!
+DEBUG (5): Inside me there are: 71 units
+DEBUG (5): My new random timer is: 19
+DEBUG (2): Serial Packet sent...
+DEBUG (2): Try to send a request to the truck at time 0:3:31.914062530 
+DEBUG (2): Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 11 
+	 Source: 2 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 2 
+		 position x of the node: 9 
+		 position y of the node: 45 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:31.922393780 
+DEBUG (2): Packet sent to node(ack not needed) at time 0:3:31.922561625 
+DEBUG (10): Serial Packet sent...
+DEBUG (10): I'm node 10: my random timer fired at 0:3:31.937500010
+DEBUG (10): Somebody threw away 8 units!
+DEBUG (10): Inside me there are: 57 units
+DEBUG (10): My new random timer is: 25
+DEBUG (6): Serial Packet sent...
+DEBUG (6): I'm node 6: my random timer fired at 0:3:32.890625010
+DEBUG (6): Somebody threw away 6 units!
+DEBUG (6): Inside me there are: 59 units
+DEBUG (6): My new random timer is: 12
+DEBUG (3): Serial Packet sent...
+DEBUG (3): I'm node 3: my random timer fired at 0:3:32.923828135
+DEBUG (3): Somebody threw away 5 units!
+DEBUG (3): Inside me there are: 76 units
+DEBUG (3): My new random timer is: 9
+DEBUG (7): Serial Packet sent...
+DEBUG (7): I'm node 7: my random timer fired at 0:3:33.867187510
+DEBUG (7): Somebody threw away 9 units!
+DEBUG (7): Inside me there are: 81 units
+DEBUG (7): My new random timer is: 16
+DEBUG (12): Serial Packet sent...
+DEBUG (12): Try to send a request to the truck at time 0:3:33.890625030 
+DEBUG (12): Packet passed to lower layer successfully!
+DEBUG (12): >>>Pack
+ 	 Payload length 11 
+	 Source: 12 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 12 
+		 position x of the node: 7 
+		 position y of the node: 64 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:33.896301266 
+DEBUG (12): Packet sent to node(ack not needed) at time 0:3:33.896469112 
+DEBUG (9): Serial Packet sent...
+DEBUG (9): Try to send a request to the truck at time 0:3:34.843750030 
+DEBUG (9): Packet passed to lower layer successfully!
+DEBUG (9): >>>Pack
+ 	 Payload length 11 
+	 Source: 9 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 9 
+		 position x of the node: 22 
+		 position y of the node: 33 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:34.853546115 
+DEBUG (9): Packet sent to node(ack not needed) at time 0:3:34.853713961 
+DEBUG (8): Serial Packet sent...
+DEBUG (8): Try to send a request to the truck at time 0:3:35.820312530 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 11 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 8 
+		 position x of the node: 15 
+		 position y of the node: 44 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:35.830200167 
+DEBUG (8): Packet sent to node(ack not needed) at time 0:3:35.830368013 
+DEBUG (2): Serial Packet sent...
+DEBUG (2): Try to send a request to the truck at time 0:3:36.796875030 
+DEBUG (2): Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 11 
+	 Source: 2 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 1 
+ 		 node_id: 2 
+		 position x of the node: 9 
+		 position y of the node: 45 
+
+ 
+DEBUG (1): Message dropped... at time 0:3:36.801971435 
+DEBUG (2): Packet sent to node(ack not needed) at time 0:3:36.802139281 
+
+
+
+Simulation finished!

@@ -1,0 +1,187 @@
+Bin 5 filled
+Bin 6 filled
+Bin 3 filled
+Bin 2 filled
+Bin 12 filled
+Bin 8 filled
+Bin 9 filled
+Bin 10 filled
+Bin 7 filled
+Bin 2 filled
+Bin 4 filled
+Bin 6 filled
+Bin 5 filled
+Bin 2 filled
+Bin 4 filled
+Bin 9 filled
+Bin 11 filled
+Bin 6 filled
+Bin 3 filled
+Bin 8 filled
+Bin 12 filled
+Bin 11 filled
+Bin 2 filled
+Bin 12 filled
+Bin 10 filled
+Bin 4 filled
+Bin 9 filled
+Bin 4 filled
+Bin 3 filled
+Bin 7 filled
+Bin 5 filled
+Bin 4 filled
+Bin 2 filled
+Bin 9 filled
+Bin 7 filled
+Bin 6 filled
+Bin 8 filled
+Bin 9 filled
+Bin 12 filled
+Bin 11 filled
+Bin 8 filled
+Bin 5 filled
+Bin 6 filled
+Bin 8 filled
+Bin 10 filled
+Bin 7 filled
+Bin 3 filled
+Bin 9 filled
+Bin 9 filled
+Bin 2 filled
+Bin 4 filled
+Bin 2 filled
+Bin 12 filled
+Bin 4 filled
+Bin 6 filled
+Bin 6 filled
+Bin 10 filled
+Bin 8 filled
+Bin 7 filled
+Bin 5 filled
+Bin 4 filled
+Bin 11 filled
+Bin 12 filled
+Bin 2 filled
+Bin 5 filled
+Bin 9 filled
+Bin 4 filled
+Bin 8 filled
+Bin 3 filled
+Bin 6 filled
+Bin 11 filled
+Bin 11 filled
+Bin 12 filled
+Bin 11 filled
+Bin 2 filled
+Bin 9 filled
+Bin 7 filled
+Bin 5 filled
+Bin 10 filled
+Bin 6 filled
+Bin 4 filled
+Bin 3 filled
+Bin 2 filled
+Bin 5 filled
+Bin 2 filled
+Bin 12 filled
+Bin 8 filled
+Bin 7 filled
+Bin 4 filled
+Bin 9 filled
+Bin 10 filled
+Bin 7 filled
+Bin 4 filled
+Bin 3 filled
+Bin 11 filled
+Bin 3 filled
+Bin 6 filled
+Bin 6 filled
+Bin 8 filled
+Bin 9 filled
+Bin 7 filled
+Bin 5 filled
+Bin 12 filled
+Bin 12 filled
+Bin 12 filled
+Bin 10 filled
+Bin 2 filled
+Bin 12 filled
+Bin 12 filled
+Bin 11 filled
+Bin 4 filled
+Bin 12 filled
+Bin 8 filled
+Bin 3 filled
+Bin 7 filled
+Bin 7 filled
+Bin 4 filled
+Bin 8 filled
+Bin 6 filled
+Bin 2 filled
+Bin 4 called the truck
+Bin 9 filled
+Bin 5 filled
+Bin 5 filled
+Bin 4 called the truck
+Bin 10 filled
+Bin 3 filled
+Bin 12 filled
+Bin 10 filled
+Bin 4 called the truck
+Bin 7 filled
+Bin 12 called the truck
+Bin 4 called the truck
+Bin 11 filled
+Bin 11 filled
+Bin 8 filled
+Bin 12 called the truck
+Bin 2 filled
+Bin 4 called the truck
+Bin 8 filled
+Bin 2 filled
+Bin 12 called the truck
+Bin 3 filled
+Bin 4 filled
+Bin 4 called the truck
+Bin 12 filled
+Bin 8 called the truck
+Bin 4 is full it's new garbage has to be send to the neighbours
+Bin 6 filled
+Bin 5 filled
+Bin 4 called the truck
+Bin 12 called the truck
+Bin 8 called the truck
+Bin 9 filled
+Bin 11 filled
+Bin 10 filled
+Bin 10 filled
+Bin 7 filled
+Bin 4 filled
+Truck arrived at bin 4
+Bin 12 called the truck
+Bin 8 called the truck
+Bin 2 filled
+Bin 9 filled
+Bin 11 filled
+Bin 7 filled
+Bin 12 filled
+Bin 3 filled
+Bin 2 called the truck
+Bin 9 called the truck
+Bin 8 called the truck
+Bin 12 filled
+Bin 12 called the truck
+Bin 12 is full it's new garbage has to be send to the neighbours
+Bin 9 filled
+Bin 8 filled
+Bin 4 filled
+Bin 5 filled
+Bin 2 called the truck
+Bin 10 filled
+Bin 6 filled
+Bin 3 filled
+Bin 7 filled
+Bin 12 called the truck
+Bin 9 called the truck
+Bin 8 called the truck
+Bin 2 called the truck
